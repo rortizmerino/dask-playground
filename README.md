@@ -20,9 +20,27 @@ This repository includes documentation and examples on how to use [Dask]() local
 
 [1. Install dependencies ]
 
+Create environment
 ```bash
-[$ pip install -r requirements.txt]
+python3 -m venv .venv
 ```
+
+Load environment
+```bash
+source .venv/bin/activate
+```
+
+Full installation from requirements
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Step-wise installation
+```bash
+python3 -m pip install "dask[complete]"
+```
+
+
 
 ### [Contributing Guidelines]
 
