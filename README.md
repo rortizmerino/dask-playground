@@ -43,6 +43,8 @@ python3 -m pip install jupyterlab
 python3 -m pip install xarray
 python3 -m pip install pooch
 python3 -m pip install cftime
+python3 -m pip install netCDF4
+python3 -m pip install h5netcdf
 ```
 
 Reminder in case more packages are installed
