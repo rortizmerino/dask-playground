@@ -52,6 +52,11 @@ Test dask installation
 py.test .venv/lib/python3.10/site-packages/dask
 ```
 
+Setup jupyter lab
+```bash
+jupyter lab --generate-config
+```
+
 
 ### [Contributing Guidelines]
 
