@@ -40,6 +40,9 @@ Step-wise installation
 python3 -m pip install "dask[complete]"
 python3 -m pip install pytest
 python3 -m pip install jupyterlab
+python3 -m pip install xarray
+python3 -m pip install pooch
+python3 -m pip install cftime
 ```
 
 Reminder in case more packages are installed
@@ -50,6 +53,11 @@ python3 -m pip freeze > requirements.txt
 Test dask installation
 ```bash
 py.test .venv/lib/python3.10/site-packages/dask
+```
+
+Test xarray installation
+```bash
+py.test .venv/lib/python3.10/site-packages/xarray
 ```
 
 Setup jupyter lab

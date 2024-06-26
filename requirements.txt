@@ -11,6 +11,7 @@ bleach==6.1.0
 bokeh==3.4.2
 certifi==2024.6.2
 cffi==1.16.0
+cftime==1.6.4
 charset-normalizer==3.3.2
 click==8.1.7
 cloudpickle==3.0.0
@@ -73,6 +74,7 @@ pexpect==4.9.0
 pillow==10.3.0
 platformdirs==4.2.2
 pluggy==1.5.0
+pooch==1.8.2
 prometheus_client==0.20.0
 prompt_toolkit==3.0.47
 psutil==6.0.0
@@ -115,6 +117,7 @@ wcwidth==0.2.13
 webcolors==24.6.0
 webencodings==0.5.1
 websocket-client==1.8.0
+xarray==2024.6.0
 xyzservices==2024.6.0
 zict==3.0.0
 zipp==3.19.2
