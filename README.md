@@ -14,7 +14,7 @@ This repository includes documentation and examples on how to use [Dask]() local
 - [List the software, OS, and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
 - [State any relevant hardware requirements.]
 
-### [For Patform A]
+### Local installation
 
 [List and describe each step required to install the software. Use a description/example format. For example:]
 
@@ -38,8 +38,18 @@ python3 -m pip install -r requirements.txt
 Step-wise installation
 ```bash
 python3 -m pip install "dask[complete]"
+python3 -m pip install pytest
 ```
 
+Reminder in case more packages are installed
+```bash
+python3 -m pip freeze > requirements.txt
+```
+
+Test dask installation
+```bash
+py.test .venv/lib/python3.10/site-packages/dask
+```
 
 
 ### [Contributing Guidelines]
