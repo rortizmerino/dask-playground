@@ -1,10 +1,8 @@
-# [Repository Title]
+# Dask playground
 
 **Purpose**
 
 This repository provides an example of a software project compliant with the [FAIR principles.](https://fair-software.nl/). It also adopts the recommendations made by the [TU Delft Guidelines on Research Software](https://d2k0ddhflgrk1i.cloudfront.net/TUDelft/Over_TU_Delft/Strategie/TU%20Delft%20Research%20Software%20Guidelines.pdf).
-
-[Repository Description: In two or three sentences, describe the purpose of the repository: **what is this repository for?**]
 
 This repository includes documentation and examples on how to use [Dask]() locally, and using High Performance Computing (HPC) clusters such as [snellius]() and [DelftBlue]()
 
