@@ -46,6 +46,7 @@ python3 -m pip install cftime
 python3 -m pip install netCDF4
 python3 -m pip install h5netcdf
 python3 -m pip install scipy
+python3 -m pip install zarr
 ```
 
 Reminder in case more packages are installed
