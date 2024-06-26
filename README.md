@@ -39,6 +39,7 @@ Step-wise installation
 ```bash
 python3 -m pip install "dask[complete]"
 python3 -m pip install pytest
+python3 -m pip install jupyterlab
 ```
 
 Reminder in case more packages are installed
