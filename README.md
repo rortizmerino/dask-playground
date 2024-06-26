@@ -45,6 +45,7 @@ python3 -m pip install pooch
 python3 -m pip install cftime
 python3 -m pip install netCDF4
 python3 -m pip install h5netcdf
+python3 -m pip install scipy
 ```
 
 Reminder in case more packages are installed
