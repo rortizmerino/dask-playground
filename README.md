@@ -48,6 +48,7 @@ python3 -m pip install h5netcdf
 python3 -m pip install scipy
 python3 -m pip install zarr
 python3 -m pip install graphviz  # may require 'sudo apt-get install graphviz'
+python3 -m pip install dask-labextension
 ```
 
 Reminder in case more packages are installed
